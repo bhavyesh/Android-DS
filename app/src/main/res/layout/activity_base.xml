@@ -21,8 +21,7 @@
             <ImageView
                 android:id="@+id/action_menu"
                 android:src="@drawable/ic_menu"
-                style="@style/Custom.Toolbar.Icon.Clickable"
-                android:layout_marginStart="40dp" />
+                style="@style/Custom.Toolbar.Icon.Clickable" />
 
 
             <TextView
@@ -41,8 +40,7 @@
                 android:id="@+id/action_search"
                 android:src="@drawable/ic_search"
                 style="@style/Custom.Toolbar.Icon.Clickable"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="40dp"/>
+                android:layout_alignParentEnd="true"/>
 
 
 

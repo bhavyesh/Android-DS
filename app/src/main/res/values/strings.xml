@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name">Android IVC</string>
-    <string name="app_heading">Android IVC</string>
+    <string name="app_name">Android DS</string>
+    <string name="app_heading">Android DS</string>
 
     <string name="one">One</string>
     <string name="two">Two</string>
