@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Android IVC</string>
+    <string name="app_heading">Android IVC</string>
+
+    <string name="one">One</string>
+    <string name="two">Two</string>
+
+    <string name="navigation_title">Title</string>
+
+</resources>

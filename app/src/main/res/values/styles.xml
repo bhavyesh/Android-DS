@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Custom"/>
+    <style name="Custom.Toolbar" />
+    <style name="Custom.Toolbar.TextAppearance" />
+
+    <style name="Custom.Toolbar.Container" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:paddingStart">@dimen/toolbar_paddingStart</item>
+        <item name="android:paddingEnd">@dimen/toolbar_paddingEnd</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Custom.Toolbar.Icon" >
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">#ffffff</item>
+    </style>
+
+    <style name="Custom.Toolbar.Icon.Clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+    </style>
+
+
+    <style name="Custom.Toolbar.TextAppearance.Title" >
+        <item name="android:textSize">@dimen/toolbar_title_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:orientation="horizontal"
+            style="@style/Custom.Toolbar.Container">
+
+
+            <ImageView
+                android:id="@+id/action_menu"
+                android:src="@drawable/ic_menu"
+                style="@style/Custom.Toolbar.Icon.Clickable"
+                android:layout_marginStart="40dp" />
+
+
+            <TextView
+                android:id="@+id/app_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/app_heading"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                />
+
+
+            <ImageView
+                android:id="@+id/action_search"
+                android:src="@drawable/ic_search"
+                style="@style/Custom.Toolbar.Icon.Clickable"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="40dp"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/app_menu" />
+
+</android.support.v4.widget.DrawerLayout>
